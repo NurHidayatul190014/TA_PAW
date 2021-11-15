@@ -1,13 +1,15 @@
 body{
-    background-color: #310b37;
+    background-color: #DFE9F5;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
+/* container */
 .container{
     height: 100%;
-    background-color: rgb(124, 86, 124);
+    background-color: #1f8fc3;
     color: rgb(196, 196, 196);
     width: 500px;
     padding: 10px;
