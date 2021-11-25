@@ -1,0 +1,111 @@
+.akun{
+    width: 1403px;
+    text-align: right;
+    margin-top: -5px;
+    background-color: #006DB2;
+    border-bottom: solid grey;
+    margin-left: -45px;
+}
+.akun h3{
+	color: #ffffff;
+    right: 60px;
+    top: 0px;
+}
+a{
+    color: #ffffff;
+    text-decoration: none;
+}
+.judul{
+    width: 320px;
+    margin-top: -58px;
+    margin-left: -250px;
+    background-color: #00527C;
+    border-bottom: solid grey;
+}
+.judul h1{
+	color: #ffffff;
+    left: -145px;
+    top: -70px;
+}
+.akun, .judul{
+    height: 55px;
+}
+.akun h3, .judul h1{
+    position: absolute;
+}
+.btn-menu{
+    position: absolute;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    left: 70px;
+    top: -57px;
+}
+.btn-menu span{
+    display: block;
+    background:#FFFFFF;
+    width: 25px;
+    height: 3px;
+    margin: 4px; 
+}
+.btn-menu:hover{
+    background: #00527C;
+}
+.menu{
+	width: 320px;
+	height: 100%;
+	background: #006DB2;
+	margin-left: -250px;
+}
+.menu ul{
+	margin:0;
+	padding:0;
+}
+.menu ul li{
+	font-size: 14px;
+	border-bottom: solid grey;
+	text-align: left;
+	padding:20px;
+	list-style: none;
+	text-transform: uppercase;
+}
+.menu ul li:hover{
+    background: #00527C;
+}
+.menu ul li a{
+	text-decoration: none;
+	margin-left: 40px;
+	color: #ffffff
+}
+.isi{
+    width: 1300px;
+    height: 100%;
+    background: #DFE9F5;
+    margin-left: 70px;
+    margin-top: -620px;
+}
+.auto{
+    display:block;
+    border-spacing: 110px 0;
+    margin-top:5px;
+    width: 1000px;
+    height:490px;
+    overflow:auto;
+}
+legend{
+    font-size: 30px;
+}
+fieldset{
+    width: 1px;
+    margin-left: 35px;
+    border: solid #006DB2;
+}
+#wrapmenu{
+	position: fixed;
+	height: 100%;
+	width: 30%;
+	left: 15%;
+}
+#wrapmenu.active{
+	left:0;
+}
+
